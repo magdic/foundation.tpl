@@ -9,4 +9,11 @@ This tpl has been created with
 * bower `1.2.8`
 * Foundation5-sass
 
+```shell
+git clone https://github.com/magdic/foundation.tpl
+cd app
+```
+
+All files has been minified.
+
 
