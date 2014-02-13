@@ -1,0 +1,20 @@
+{
+  "name": "foundation",
+  "version": "0.0.0",
+  "authors": [
+    "Magdiel <luisc@thehangar.cr>"
+  ],
+  "description": "This is a bower json",
+  "main": "?",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation5-sass": "~0.0.1"
+  }
+}
