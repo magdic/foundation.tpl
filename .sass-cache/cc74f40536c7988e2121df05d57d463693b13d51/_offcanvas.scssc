@@ -1,14 +1,14 @@
 3.2.14 (Media Mark)
-7fdee849557a1505d705d2d7f5630d7b174028ee
+f0fec63ceca4d5c7230762b915b1279f55bf3965
 o:Sass::Tree::RootNode
-:@template"7(@import "global";
+:@template"C(@import "global";
 @import "type";
 @import "top-bar";
 
 // Off Canvas Tab Bar Variables
 $include-html-off-canvas-classes: $include-html-classes !default;
 
-$tabbar-bg: #333 !default;
+$tabbar-bg: #4DACAC !default;
 $tabbar-height: rem-calc(45) !default;
 $tabbar-line-height: $tabbar-height !default;
 $tabbar-color: #FFF !default;
@@ -26,15 +26,15 @@ $tabbar-header-margin: 0 !default;
 
 // Off Canvas Menu Variables
 $off-canvas-width: 250px !default;
-$off-canvas-bg: #333 !default;
+$off-canvas-bg: #4DACAC !default;
 
 // Off Canvas Menu List Variables
 $off-canvas-label-padding: 0.3rem rem-calc(15) !default;
-$off-canvas-label-color: #999 !default;
+$off-canvas-label-color: #444 !default;
 $off-canvas-label-text-transform: uppercase !default;
 $off-canvas-label-font-weight: bold !default;
-$off-canvas-label-bg: #444 !default;
-$off-canvas-label-border-top: 1px solid scale-color(#444, $lightness: 14%) !default;
+$off-canvas-label-bg: #4DACAC !default;
+$off-canvas-label-border-top: 1px solid scale-color(#4DACAC, $lightness: 14%) !default;
 $off-canvas-label-border-bottom: none !default;
 $off-canvas-label-margin:0 !default;
 $off-canvas-link-padding: rem-calc(10, 15) !default;
@@ -384,9 +384,9 @@ $menu-slide: "transform 500ms ease" !default;
 @type:silent:@value["'/* Off Canvas Tab Bar Variables */o:Sass::Tree::VariableNode;i:@guarded"!default;@:
 @expro:Sass::Script::Variable	:@underscored_name"include_html_classes;i;@:
 @name"include-html-classes;
-[ ;"$include-html-off-canvas-classeso;;i;"!default;@;o:Sass::Script::Color	;i;@:@attrs{	:redi8:
+[ ;"$include-html-off-canvas-classeso;;i;"!default;@;o:Sass::Script::Color	;i;@:@attrs{	:rediR:
 alphai:
-greeni8:	bluei8;0;
+greeni¬:	bluei¬;0;
 [ ;"tabbar-bgo;;i;"!default;@;o:Sass::Script::Funcall:
 @args[o:Sass::Script::Number:@denominator_units[ ;i;@:@numerator_units[ :@original"45;i2:@keywords{ ;i;@:@splat0;"rem-calc;
 [ ;"tabbar-heighto;;i;"!default;@;o;	;"tabbar_height;i;@;"tabbar-height;
@@ -409,16 +409,16 @@ solido; ;![ ;i;@;"["px;#"1px;io;;[o;	;"tabbar_bg;i;@;"tab
 ;i;@;
 [ ;;;["$/* Off Canvas Menu Variables */o;;i;"!default;@;o; ;![ ;i;@;"["px;#"
 250px;iú;
-[ ;"off-canvas-widtho;;i;"!default;@;o;	;i;@;{	;i8;i;i8;i8;0;
+[ ;"off-canvas-widtho;;i;"!default;@;o;	;i;@;{	;iR;i;i¬;i¬;0;
 [ ;"off-canvas-bgo;
 ;i!;@;
 [ ;;;[")/* Off Canvas Menu List Variables */o;;i";"!default;@;o;&	;i";@;';(;[o; ;![ ;i";@;"["rem;#"0.3rem;f0.29999999999999999 33o;;[o; ;!@(;i";@;"[ ;#"15;i;${ ;i";@;%0;"rem-calc;
-[ ;"off-canvas-label-paddingo;;i#;"!default;@;o;	;i#;@;{	;i™;i;i™;i™;0;
+[ ;"off-canvas-label-paddingo;;i#;"!default;@;o;	;i#;@;{	;iI;i;iI;iI;0;
 [ ;"off-canvas-label-coloro;;i$;"!default;@;o;)	;i$;@;;*;"uppercase;
 [ ;"$off-canvas-label-text-transformo;;i%;"!default;@;o;)	;i%;@;;*;"	bold;
-[ ;"!off-canvas-label-font-weighto;;i&;"!default;@;o;	;i&;@;{	;iI;i;iI;iI;0;
+[ ;"!off-canvas-label-font-weighto;;i&;"!default;@;o;	;i&;@;{	;iR;i;i¬;i¬;0;
 [ ;"off-canvas-label-bgo;;i';"!default;@;o;&	;i';@;';(;[o; ;![ ;i';@;"["px;#"1px;io;)	;i';@;;*;"
-solido;;[o;	;i';@;{	;iI;i;iI;iI;0;${"lightnesso; ;![ ;i';@;"["%;#"14%;i;i';@;%0;"scale-color;
+solido;;[o;	;i';@;{	;iR;i;i¬;i¬;0;${"lightnesso; ;![ ;i';@;"["%;#"14%;i;i';@;%0;"scale-color;
 [ ;" off-canvas-label-border-topo;;i(;"!default;@;o;)	;i(;@;;*;"	none;
 [ ;"#off-canvas-label-border-bottomo;;i);"!default;@;o; ;!@(;i);@;"[ ;#"0;i ;
 [ ;"off-canvas-label-margino;;i*;"!default;@;o;;[o; ;!@(;i*;@;"[ ;#"10;io; ;!@(;i*;@;"[ ;#"15;i;${ ;i*;@;%0;"rem-calc;
@@ -506,7 +506,7 @@ o;.;ic;@;/;0;
 -moz-;50;iz;@;60;7F;8o;	;"menu_slide;iz;@;"menu-slide;90o;.;i{;@;/;0;
 [ ;["-ms-transition;1i ;o;3;4o;)	;i{;@;;*;"	-ms-;50;i{;@;60;7F;8o;	;"menu_slide;i{;@;"menu-slide;90o;.;i|;@;/;0;
 [ ;["-o-transition;1i ;o;3;4o;)	;i|;@;;*;"-o-;50;i|;@;60;7F;8o;	;"menu_slide;i|;@;"menu-slide;90o;.;i};@;/;0;
-[ ;["transition;1i ;o;3;40;5iÓ;i};@;60;7F;8o;	;"menu_slide;i};@;"menu-slide;90;%0;"inner-wrapo;
+[ ;["transition;1i ;o;3;40;5iß;i};@;60;7F;8o;	;"menu_slide;i};@;"menu-slide;90;%0;"inner-wrapo;
 ;i|;@;
 [ ;;;["./* TAB BAR
  * This is the tab bar base */o;-;[ ;i~;@;	T;

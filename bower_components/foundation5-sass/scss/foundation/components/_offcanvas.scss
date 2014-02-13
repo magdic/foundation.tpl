@@ -5,7 +5,7 @@
 // Off Canvas Tab Bar Variables
 $include-html-off-canvas-classes: $include-html-classes !default;
 
-$tabbar-bg: #333 !default;
+$tabbar-bg: #4DACAC !default;
 $tabbar-height: rem-calc(45) !default;
 $tabbar-line-height: $tabbar-height !default;
 $tabbar-color: #FFF !default;
@@ -23,15 +23,15 @@ $tabbar-header-margin: 0 !default;
 
 // Off Canvas Menu Variables
 $off-canvas-width: 250px !default;
-$off-canvas-bg: #333 !default;
+$off-canvas-bg: #4DACAC !default;
 
 // Off Canvas Menu List Variables
 $off-canvas-label-padding: 0.3rem rem-calc(15) !default;
-$off-canvas-label-color: #999 !default;
+$off-canvas-label-color: #444 !default;
 $off-canvas-label-text-transform: uppercase !default;
 $off-canvas-label-font-weight: bold !default;
-$off-canvas-label-bg: #444 !default;
-$off-canvas-label-border-top: 1px solid scale-color(#444, $lightness: 14%) !default;
+$off-canvas-label-bg: #4DACAC !default;
+$off-canvas-label-border-top: 1px solid scale-color(#4DACAC, $lightness: 14%) !default;
 $off-canvas-label-border-bottom: none !default;
 $off-canvas-label-margin:0 !default;
 $off-canvas-link-padding: rem-calc(10, 15) !default;
