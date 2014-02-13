@@ -1,6 +1,6 @@
 # Foundation Template Grunt/Bower [![Build Status](https://travis-ci.org/gruntjs/grunt-contrib-copy.png?branch=master)](https://magdic.github.io/foundation.tpl)
 
-> Copy files and folders.
+> Foundation template with min files.
 
 ## Getting Started
 This tpl has been created with 
@@ -12,6 +12,7 @@ This tpl has been created with
 ```shell
 git clone https://github.com/magdic/foundation.tpl
 cd app
+open the index.html
 ```
 
 All files has been minified.

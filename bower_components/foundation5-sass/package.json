@@ -1,0 +1,7 @@
+{
+  "name": "components-foundation",
+  "version": "5",
+  "description": "Foundation component",
+  "keywords": ["foundation5-sass"],
+  "main": "./jquery.js"
+}
